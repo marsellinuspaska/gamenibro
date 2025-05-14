@@ -58,13 +58,13 @@ Table of contents
   --tc-ds-xs-6: 24px;
   --tc-body-line-height: 1.5;
   --tc-heading-line-height: 1.2;
-  --tc-theme-primary: #e3ff04;
+  --tc-theme-primary: #6bffaf;
   --tc-theme-b_text: #999999;
   --tc-theme-b_text2: #565656;
   --tc-system-white: #ffffff;
   --tc-system-black-1: #111111;
   --tc-system-black-2: #181818;
-  --tc-linear-1: linear-gradient(90deg, #181818 0%, #e3ff04 100%);
+  --tc-linear-1: linear-gradient(90deg, #181818 0%, #6bffaf 100%);
   --tc-fw-black: 900;
   --tc-fw-extra-bold: 800;
   --tc-fw-bold: 700;
@@ -450,13 +450,13 @@ img {
 .line-gradient {
   width: 50px;
   height: 1px;
-  background: linear-gradient(90deg, rgba(24, 24, 24, 0) 0%, #e3ff04 100%);
+  background: linear-gradient(90deg, rgba(24, 24, 24, 0) 0%, #6bffaf 100%);
 }
 
 .line-gradient-reverse {
   width: 50px;
   height: 1px;
-  background: linear-gradient(90deg, #e3ff04 0%, rgba(24, 24, 24, 0) 100%);
+  background: linear-gradient(90deg, #6bffaf 0%, rgba(24, 24, 24, 0) 100%);
 }
 
 .badge {
@@ -2867,6 +2867,29 @@ Preloader
   gap: 7rem;
 }
 
+/* Style the video: 100% width and height to cover the entire window */
+#BGHero {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background: url("../imgs/video/video-5/Video background.mp4") no-repeat center;
+  background-size: cover;
+}
+
+.
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
 .page-header .image-background {
   background-position: inherit;
   background-size: cover;
@@ -3005,10 +3028,10 @@ Preloader
   background-repeat: no-repeat;
   position: relative;
   mix-blend-mode: luminosity;
-  width: auto;
-  height: 870px;
+  width: 100%;
+  height: 100%;
 }
-.section-hero-3 .bg::after {
+.section-hero-3 .bg:after {
   position: absolute;
   content: "";
   width: 100%;
@@ -3018,6 +3041,7 @@ Preloader
   background: linear-gradient(270deg, rgba(0, 0, 0, 0.8) 0%, #000 100%);
   opacity: 0.9;
 }
+
 .section-hero-3 .figure-group {
   top: -330px;
   right: -128px;
@@ -3026,7 +3050,7 @@ Preloader
   width: 637px;
   height: 637px;
   border-radius: 637px;
-  background: linear-gradient(203deg, #e3ff04 11.82%, rgba(136, 153, 2, 0) 87.67%);
+  background: linear-gradient(203deg, #6bffaf 11.82%, rgba(136, 153, 2, 0) 87.67%);
 }
 
 .section-hero-4 .img-bg {
@@ -3245,17 +3269,17 @@ Preloader
   color: var(--tc-system-white);
   line-height: 100%;
 }
-@media (max-width: 1399px) {
+@media (max-width: 767px) {
   .section-portfolio-3 .single-portfolio-card-3 .portfolio-card-title {
     font-size: 36px;
   }
 }
-@media (max-width: 1199.98px) {
+@media (max-width: 767px) {
   .section-portfolio-3 .single-portfolio-card-3 .portfolio-card-title {
     font-size: 30px;
   }
 }
-@media (max-width: 767.98px) {
+@media (max-width: 767px) {
   .section-portfolio-3 .single-portfolio-card-3 .portfolio-card-title {
     font-size: 24px;
   }
