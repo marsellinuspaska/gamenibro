@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    @@include("../partials/head-links.html", {"title": "Muzilla - Multi-purpose Bootstrap 5 Template"})
+</head>
+
+<body>
+    <!-- prettier-ignore -->
+    @@include("../partials/preloader.html")
+    @@include("../partials/header-3.html",{ "classList": "navbar-light w-100" })
+    <main>
+        <!-- prettier-ignore -->
+        @@include("../partials/page-header.html",{
+        "background-image": "assets/imgs/page-header/img-bg-3.png",
+        "title": "Pricing Plans",
+        "page-display": "d-none",
+        "page-title-display": "",
+        "page-link": "",
+        "page-title": "Pricing",
+        }
+        )
+        @@include("../sections/pricing/pricing-2.html")
+        @@include("../sections/faqs/faqs-1.html")
+        @@include("../sections/services/services-2.html")
+        @@include("../sections/insta/insta-1.html")
+    </main>
+    <!-- prettier-ignore -->
+    @@include("../partials/footer-3.html")
+    @@include("../partials/btn-scroll-top.html")
+    @@include("../partials/scripts.html")
+    <!-- Other scripts -->
+</body>
+
+</html>

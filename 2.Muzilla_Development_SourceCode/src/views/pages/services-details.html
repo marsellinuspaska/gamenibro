@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    @@include("../partials/head-links.html", {"title": "Muzilla - Multi-purpose Bootstrap 5 Template"})
+</head>
+
+<body>
+    <!-- prettier-ignore -->
+    @@include("../partials/preloader.html")
+    @@include("../partials/header-3.html",{ "classList": "navbar-light w-100" })
+    <main>
+        <!-- prettier-ignore -->
+        @@include("../partials/page-header.html",{
+        "background-image": "assets/imgs/page-header/img-bg-3.png",
+        "title": "Game Development Services",
+        "page-display": "d-flex",
+        "page-title-display": "Our Services",
+        "page-link": "services-1.html",
+        "page-title": "Game Development Services",
+        }
+        )
+        @@include("../sections/platforms/platforms-1.html")
+        @@include("../sections/counter/counter-3.html")
+        @@include("../sections/info/info-1.html")
+        @@include("../sections/technologies/technologies-1.html")
+        @@include("../sections/our-features/our-features-1.html")
+        @@include("../sections/counter/counter-3.html")
+        @@include("../sections/team/team-2.html")
+        @@include("../sections/testimonials/testimonials-1.html",{ "classList": "pb-120" })
+        @@include("../sections/insta/insta-1.html")
+    </main>
+    <!-- prettier-ignore -->
+    @@include("../partials/footer-3.html")
+    @@include("../partials/btn-scroll-top.html")
+    @@include("../partials/scripts.html")
+    <!-- Other scripts -->
+</body>
+
+</html>

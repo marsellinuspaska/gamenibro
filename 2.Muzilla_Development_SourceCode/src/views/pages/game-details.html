@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    @@include("../partials/head-links.html", {"title": "Muzilla - Multi-purpose Bootstrap 5 Template"})
+</head>
+<body>
+    <!-- prettier-ignore -->
+    @@include("../partials/preloader.html")
+    @@include("../partials/header-3.html",{ "classList": "navbar-light w-100" })
+    <main>
+        <!-- prettier-ignore -->
+        @@include("../partials/page-header.html",{
+        "background-image": "assets/imgs/page-header/img-bg-4.png",
+        "title": "Eclipse of the Shadows",
+        "page-display": "d-flex",
+        "page-title-display": "Our Games",
+        "page-link": "our-game.html",
+        "page-title": "Eclipse of the Shadows",
+        }
+        )
+        @@include("../sections/our-story/our-story-2.html")
+        @@include("../sections/video/video-4.html")
+        @@include("../sections/technologies/technologies-2.html")
+        @@include("../sections/pricing/pricing-2.html")
+        @@include("../sections/counter/counter-3.html")
+        @@include("../sections/contact/contact-1.html", { "path-image": "assets/imgs/contact/img-2.png" })
+        @@include("../sections/insta/insta-1.html")
+    </main>
+    <!-- prettier-ignore -->
+    @@include("../partials/footer-3.html")
+    @@include("../partials/btn-scroll-top.html")
+    @@include("../partials/scripts.html")
+    <!-- Other scripts -->
+</body>
+</html>

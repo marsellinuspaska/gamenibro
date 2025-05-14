@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    @@include("../partials/head-links.html", {"title": "Muzilla - Multi-purpose Bootstrap 5 Template"})
+</head>
+
+<body>
+    <!-- prettier-ignore -->
+    @@include("../partials/preloader.html")
+    @@include("../partials/header-3.html",{ "classList": "navbar-light w-100" })
+    <main>
+        <!-- prettier-ignore -->
+        @@include("../partials/page-header.html",{
+        "background-image": "assets/imgs/page-header/img-bg-7.png",
+        "title": "Inside & Trending",
+        "page-display": "d-none",
+        "page-title-display": "",
+        "page-link": "",
+        "page-title": "News & Blog",
+        }
+        )
+        @@include("../sections/blog/blog-list.html")
+        @@include("../sections/contact/contact-1.html", { "path-image": "assets/imgs/contact/img-2.png" })
+        @@include("../sections/insta/insta-1.html")
+    </main>
+    <!-- prettier-ignore -->
+    @@include("../partials/footer-3.html")
+    @@include("../partials/btn-scroll-top.html")
+    @@include("../partials/scripts.html")
+    <!-- Other scripts -->
+</body>
+
+</html>

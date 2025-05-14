@@ -1,0 +1,338 @@
+/*=============================
+	Typography css start
+===============================*/
+body {
+    font-family: var(--tc-body-font-family);
+    font-size: var(--tc-body-font-size);
+    font-weight: var(--tc-fw-regular);
+    color: var(--tc-system-white);
+    line-height: var(--tc-body-line-height);
+}
+.font-body {
+    font-family: var(--tc-body-font-family);
+}
+.fs-8px {
+    font-size: 8px;
+}
+.fs-18 {
+    font-size: 18px;
+}
+.fs-120 {
+    font-size: 120px;
+}
+.fs-128 {
+    font-size: 128px;
+}
+.fs-150 {
+    font-size: 150px;
+}
+.fs-40 {
+    font-size: 40px !important;
+}
+.fs-80 {
+    font-size: 80px !important;
+}
+.fs-96 {
+    font-size: 96px !important;
+}
+.fs-230 {
+    font-size: 230px !important;
+}
+.fs-250 {
+    font-size: 250px !important;
+}
+.fs-100 {
+    font-size: 100px;
+}
+.fs-300 {
+    font-size: 300px !important;
+}
+.fs-1 {
+    font-size: var(--tc-fs-1) !important;
+}
+.fs-2 {
+    font-size: var(--tc-fs-2) !important;
+}
+.fs-3 {
+    font-size: var(--tc-fs-3) !important;
+}
+.fs-4 {
+    font-size: var(--tc-fs-4) !important;
+}
+.fs-5 {
+    font-size: var(--tc-fs-5) !important;
+}
+.fs-6 {
+    font-size: var(--tc-fs-6) !important;
+}
+.fs-7 {
+    font-size: var(--tc-fs-7) !important;
+}
+.fs-8 {
+    font-size: var(--tc-fs-8) !important;
+}
+.fs-9 {
+    font-size: var(--tc-fs-9) !important;
+}
+.ds-1 {
+    font-size: var(--tc-ds-1) !important;
+}
+.ds-2 {
+    font-size: var(--tc-ds-2) !important;
+}
+.ds-3 {
+    font-size: var(--tc-ds-3) !important;
+}
+.ds-4 {
+    font-size: var(--tc-ds-4) !important;
+}
+.ds-5 {
+    font-size: var(--tc-ds-5) !important;
+}
+.ds-6 {
+    font-size: var(--tc-ds-6) !important;
+}
+.ds-xs-1 {
+    font-size: var(--tc-ds-xs-1) !important;
+}
+.ds-xs-2 {
+    font-size: var(--tc-ds-xs-2) !important;
+}
+.ds-xs-3 {
+    font-size: var(--tc-ds-xs-3) !important;
+}
+.ds-xs-4 {
+    font-size: var(--tc-ds-xs-4) !important;
+}
+.ds-xs-5 {
+    font-size: var(--tc-ds-xs-5) !important;
+}
+.ds-xs-6 {
+    font-size: var(--tc-ds-xs-6) !important;
+}
+// Font Weight
+.fst-italic {
+    font-family: 'Satoshi-VariableItalic';
+}
+.fw-light {
+    font-weight: var(--tc-fw-light);
+}
+.fw-regular {
+    font-weight: var(--tc-fw-regular);
+}
+.fw-medium {
+    font-weight: var(--tc-fw-medium);
+}
+.fw-semibold {
+    font-weight: var(--tc-fw-semi-bold) !important;
+}
+.fw-bold {
+    font-weight: var(--tc-fw-bold);
+}
+.fw-extra-bold {
+    font-weight: var(--tc-fw-extra-bold);
+}
+.fw-black {
+    font-weight: var(--tc-fw-black);
+}
+.fw .size-16 {
+    width: 16px;
+    height: 16px;
+}
+.size-14 {
+    width: 14px;
+    height: 14px;
+}
+.size-12 {
+    width: 12px;
+    height: 12px;
+}
+.size-22 {
+    width: 22px;
+    height: 22px;
+}
+.size-48 {
+    width: 48px;
+    height: 48px;
+}
+.size-50 {
+    width: 50px;
+    height: 50px;
+}
+.size-75 {
+    width: 75px;
+    height: 75px;
+}
+img,
+.img {
+    max-width: 100%;
+    transition: 0.3s;
+}
+a,
+button {
+    font-family: var(--tc-heading-font-family);
+    color: var(--tc-system-white);
+    outline: none;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.btn.active {
+    color: var(--tc-system-black-1) !important;
+}
+a:focus,
+.btn:focus,
+.button:focus {
+    text-decoration: none;
+    outline: none;
+    box-shadow: none;
+}
+a:hover {
+    color: var(--tc-theme-primary);
+    text-decoration: none;
+}
+button:focus,
+input:focus,
+input:focus,
+textarea,
+textarea:focus {
+    outline: 0;
+}
+textarea {
+    min-height: 260px !important;
+}
+/* Form Control */
+.form-control {
+    background: #202020 !important;
+    min-height: 62px;
+    color: var(--tc-system-white) !important;
+    display: block;
+    width: 100%;
+    padding: 18px 18px 18px 31px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-clip: padding-box;
+    border-top: var(--bs-border-width) solid var(--tc-theme-b_text2);
+    border-bottom: var(--bs-border-width) solid var(--tc-theme-b_text2);
+    border-left: 0;
+    border-right: 0;
+    transition:
+        border-color 0.15s ease-in-out,
+        box-shadow 0.15s ease-in-out;
+    &::placeholder {
+        color: var(--tc-theme-b_text2) !important;
+        // opacity: 0.7 !important;
+    }
+    &:focus {
+        border-color: var(--tc-theme-b_text2) !important;
+        box-shadow: none;
+    }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--tc-heading-font-family);
+    color: var(--tc-system-white);
+    margin-top: 0px;
+    font-weight: var(--tc-fw-bold);
+    line-height: var(--tc-heading-line-height);
+    text-transform: unset;
+    letter-spacing: -0.96px;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: inherit;
+}
+h1 {
+    font-size: 48px;
+}
+h2 {
+    font-size: 40px;
+}
+h3 {
+    font-size: 33px;
+}
+h4 {
+    font-size: 27px;
+}
+h5 {
+    font-size: 23px;
+}
+h6 {
+    font-size: 19px;
+}
+.list-wrap {
+    margin: 0px;
+    padding: 0px;
+    & li {
+        list-style: none;
+    }
+}
+span {
+    font-family: var(--tc-heading-font-family);
+}
+p {
+    font-family: var(--tc-body-font-family);
+    font-size: var(--tc-body-font-size);
+    line-height: var(--tc-body-line-height);
+    font-weight: var(--tc-fw-regular);
+    color: var(--tc-theme-b_text);
+    margin-bottom: 15px;
+}
+hr {
+    border-bottom: 1px solid var(--tc-color-gray-1);
+    border-top: 0 none;
+    margin: 30px 0;
+    padding: 0;
+}
+label {
+    color: var(--tc-system-white);
+    cursor: pointer;
+    font-size: var(--tc-body-font-size);
+    font-weight: var(--tc-fw-regular);
+}
+input[type='color'] {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: none;
+    border: 0;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    border-radius: 50%;
+}
+/*=============================
+    - Input Placeholder
+===============================*/
+input,
+textarea {
+    color: white;
+}
+*::-moz-placeholder {
+    color: white;
+    font-size: var(--tc-body-font-size);
+    opacity: 1;
+}
+*::placeholder {
+    color: white;
+    font-size: var(--tc-body-font-size);
+    opacity: 1;
+}
+/*=============================
+    - Common Classes
+===============================*/
+.clear {
+    clear: both;
+}

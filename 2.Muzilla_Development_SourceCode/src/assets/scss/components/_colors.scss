@@ -1,0 +1,68 @@
+:root {
+    --bs-border-radius-xl: 1.25rem;
+    --bs-border-radius-lg: 0.875rem;
+    --bs-primary-rgb: 227, 255, 4;
+    --bs-dark-rgb: 17, 17, 17;
+    --bs-secondary-rgb: 86, 86, 86;
+}
+.text-hover-primary {
+    &:hover {
+        color: var(--tc-theme-primary) !important;
+    }
+}
+.border-black-2 {
+    --bs-border-color: var(--tc-system-black-2) !important;
+}
+// Text
+.text-primary {
+    color: var(--tc-theme-primary) !important;
+}
+.text-dark {
+    color: var(--tc-system-black-1) !important;
+}
+.text-white {
+    color: var(--tc-system-white) !important;
+}
+.text-secondary {
+    color: var(--tc-theme-b_text) !important;
+}
+.text-secondary-2 {
+    color: var(--tc-theme-b_text2) !important;
+}
+// Background
+.bg-white {
+    background-color: var(--tc-system-white) !important;
+}
+.bg-primary {
+    background-color: var(--tc-theme-primary) !important;
+}
+.bg-black-1 {
+    background-color: var(--tc-system-black-1) !important;
+}
+.bg-black-2 {
+    background-color: var(--tc-system-black-2) !important;
+}
+// line
+.line-gradient {
+    width: 50px;
+    height: 1px;
+    background: linear-gradient(90deg, rgba(24, 24, 24, 0) 0%, #e3ff04 100%);
+}
+.line-gradient-reverse {
+    width: 50px;
+    height: 1px;
+    background: linear-gradient(90deg, #e3ff04 0%, rgba(24, 24, 24, 0) 100%);
+}
+// Badge
+.badge {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: var(--tc-fw-medium);
+    line-height: 1;
+    color: var(--bs-badge-color);
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: var(--bs-badge-border-radius);
+    border: 1px solid var(--bs-badge-border-color);
+}

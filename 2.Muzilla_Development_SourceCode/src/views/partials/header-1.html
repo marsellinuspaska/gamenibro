@@ -1,0 +1,53 @@
+<!-- Navbar -->
+<header>
+    <nav class="navbar navbar-expand-lg @@classList z-3">
+        <div class="d-flex justify-content-between align-items-center w-100 px-lg-8 px-3 py-5">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/imgs/template/logo.svg" alt="logo">
+                <span class="ms-2 ds-xs-6 fw-bold text-white">
+                    Muzilla
+                </span>
+            </a>
+            <div class="align-items-lg-center d-none d-lg-flex">
+                @@include("main-menu.html")
+            </div>
+            <div class="d-flex align-items-center">
+                <ul class="navbar-nav border-0 pe-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link fw-semibold d-none d-md-block" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            English
+                            <i class="bi bi-chevron-down opacity-25 fs-7 ms-2"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">English</a></li>
+                            <li><a class="dropdown-item" href="#">French</a></li>
+                            <li><a class="dropdown-item" href="#">German</a></li>
+                            <li><a class="dropdown-item" href="#">Spanish</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- <div class="burger-icon burger-icon-white border rounded-3">
+                    <span class="burger-icon-top"></span>
+                    <span class="burger-icon-mid"></span>
+                    <span class="burger-icon-bottom"></span>
+                </div> -->
+                <a href="#" class="gradient ms-3 burger-icon d-lg-none d-block burger-icon-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                        <circle cx="20" cy="20" r="20" fill="#E3FF04" />
+                        <rect x="11" y="16" width="18" height="2" fill="#111111" />
+                        <rect x="11" y="22" width="10" height="2" fill="#111111" />
+                    </svg>
+                </a>
+                <a href="#" class="gradient ms-3 menu-tigger d-none d-lg-block" data-bs-target=".offCanvas__info">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                        <circle cx="20" cy="20" r="20" fill="#E3FF04" />
+                        <rect x="11" y="16" width="18" height="2" fill="#111111" />
+                        <rect x="11" y="22" width="10" height="2" fill="#111111" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </nav>
+    @@include("offcanvas.html")
+    @@include("offcanvas.html") @@include("mobile-menu.html")
+</header>
