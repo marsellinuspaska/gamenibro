@@ -7,10 +7,10 @@
     overflow: hidden;
     & img {
         display: block;
-        transition: transform 0.35s ease-in-out;
+        transition: transform 0.1 ease-in-out;
     }
     &:hover img {
-        transform: scale(1.05);
+        transform: scale(0.1);
     }
 }
 @-webkit-keyframes hoverShine {
